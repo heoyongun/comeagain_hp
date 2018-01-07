@@ -1,0 +1,316 @@
+
+body {
+    padding-top: 50px;
+}
+
+.em-text {
+    color: #1caa98 !important;
+}
+
+.col-md-4 {
+    padding-bottom: 20px;
+}
+
+section{
+    padding: 40px 0 40px 0;
+}
+
+.title{
+	text-align: center;
+	font-size:16px;
+	margin-top:15px;
+	margin-bottom:20px;
+	font-weight: bold;
+}
+
+section#title-bar{
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    background: #1caa98;
+    color: #fff;
+}
+
+section#carousel{
+    margin:20px 0 20px 0;
+	padding:30px 0 30px 0;
+}
+
+.jumbotron {
+    background: #1b222a url('../img/site_showcase_bg.jpg') top center;
+    color: #fff;
+    height: 598px;
+    overflow: none;
+}
+
+.jumbotron h1 {
+    margin-top: 60px
+}
+
+.jumbotron p {
+    padding-top : 40px;
+    margin-bottom: 40px
+}
+
+.jumbotron img.app-btn {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.jumbotron img.showcase-img {
+    width: 120%;
+}
+
+.demo {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.img{
+    /*max-width: 360px;*/
+    /*min-width: 294px;
+    max-height: 147px;
+    min-height: 147px;*/
+    width: 360px;
+    height: 180px;
+}
+
+section#feature {
+    background: #1caa98;
+    color: #fff;
+    padding: 40px;
+    overflow: auto;
+}
+
+section#feature ul li{
+    font-size: 22px;
+    list-style: none;
+    line-height: 2.0em;
+}
+
+section#feature ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*# resume.html  */
+
+section#resume-title-bar{
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    color: #363636;
+    background-color: #ededed;
+}
+
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-size: 1.5em;
+}
+
+.primary, strong, h2 {
+  color: #3b5a76;
+}
+
+.container-sub {
+    padding-bottom: 50px;
+    font-family: 'Open Sans', Arial, Tahoma;
+    color: #363636;
+    background-color: #ededed;
+    font-size: 16px;
+}
+
+.container-main {
+  background: #fff;
+  margin-top: 80px;
+  padding: 0 30px 30px 30px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 2.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.profile-img {
+  width: 160px;
+  display: block;
+  margin: auto;
+  margin-top: -200px;
+}
+
+.line {
+  max-width: 100%;
+}
+
+.contact-list {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  list-style: none;
+  font-weight: bold;
+  line-height: 3.2em;
+}
+
+.contact-list span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: 37px;
+  line-height: 0.1em;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.media {
+  background: #ededed;
+  padding: 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.work-list li {
+  list-style: none;
+  float: left;
+  padding: 0 10px 0 10px;
+  margin-bottom: 30px;
+}
+
+.big-logo {
+  width :130%
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 30px 0;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    float: right;
+}
+
+/* media queries */
+@media (min-width: 1200px){
+    .img{
+        width: 360px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 992px) and  (max-width: 1199px) {
+    .img{
+        /*max-width: 360px;*/
+        /*min-width: 294px;
+        max-height: 147px;
+        min-height: 147px;*/
+        width: 360px;
+        height: 147px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .img{
+        /*max-width: 360px;*/
+        /*min-width: 294px;
+        max-height: 147px;
+        min-height: 147px;*/
+        width: 100%;
+        height: 100%;
+    }
+
+    .showcase-img {
+        display: none;
+    }
+
+    .big-logo {
+        display: none;
+    }
+
+    .jumbotron img.app-btn {
+        width: 30%;
+    }
+
+    .jumbotron {
+        height: 400px !important;
+        background-size: 100% 100%;
+    }
+
+    .jumbotron h1 {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 350px !important;
+        background-size: 100% 100%;
+    }
+
+    .jumbotron h1 {
+        margin-top: 10px;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+}
+
+.root_daum_roughmap .wrap_controllers {display: none !important}
+
+@media (max-width: 500px) {
+    .jumbotron {
+        height: 450px !important;
+        background-image: none;
+    }
+
+    .jumbotron img.app-btn {
+        width: 60%;
+        margin: 0 auto 30px auto;
+        display: block;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    section#feature ul li{
+        font-size: 16px !important;
+    }
+
+    footer p {
+        float: none;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
